@@ -1,6 +1,6 @@
 name: Add book support
 description: Use this template if you have found a book not supported by AkashikTome.
-title: "[Feature] : Add book support"
+title: "[Feature] Add <REPLACE BY MOD NAME> book support"
 labels: ["Minor change", "Suggestion"]
 assignees:
   - Uraneptus
@@ -15,14 +15,15 @@ body:
     attributes:
       label: Mod Page
       description: What is the public page of the relevant mod?
-      placeholder: "ex. https://www.curseforge.com/minecraft/mc-mods/jei"
+      placeholder: "ex. https://www.curseforge.com/minecraft/mc-mods/roots"
     validations:
       required: true
   - type: input
     id: mod-version
     attributes:
       label: Mod Version
-      description: Which version of the mod is relevant?
+      description: Which version of the mod you wish the book to be added is relevant?
+      placeholder: "ex. Roots 4, Minecraft 1.21.1 
     validations:
       required: false
   - type: input
