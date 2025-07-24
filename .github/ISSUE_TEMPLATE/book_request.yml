@@ -15,7 +15,7 @@ body:
     attributes:
       label: Mod Page
       description: What is the public page of the relevant mod?
-      placeholder: "ex. https://www.curseforge.com/minecraft/mc-mods/roots"
+      placeholder: "ex. https://www.curseforge.com/minecraft/mc-mods/roots-classic"
     validations:
       required: true
   - type: input
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Mod Version
       description: Which version of the mod you wish the book to be added is relevant?
-      placeholder: "ex. Roots-1.12.2-3.1.9.2"
+      placeholder: "ex. RootsClassic-1.21.1-1.5.5"
     validations:
       required: true
   - type: input
